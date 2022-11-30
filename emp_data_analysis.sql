@@ -25,12 +25,6 @@ ON departments.dept_no = dept_manager.dept_no
 JOIN employees
 ON employees.emp_no = dept_manager.emp_no;
 
-select * from employees
-where last_name = 'Markovitch'
-AND first_name = 'Margareta'
-
-SELECT * from salaries
-WHERE emp_no = 110022
 --List the department number for each employee along with that employee’s employee number, 
 --last name, first name, and department name.
 
